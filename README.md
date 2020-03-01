@@ -22,7 +22,7 @@ Detaild view of high byte:
 * Bits 4-3 - Status. Bit 4 - CRC calculating result: 0 for ok and 1 for error. Bit 3 - general error bit: 0 for ok and 1 for error.
 * Bits 2-0 - Command to 1-Wire interface.
 
-Following commannds are cupported:
+Following commannds are supported:
 
 * 001 - Reset bus;
 * 010 - Read bit from bus;

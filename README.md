@@ -9,8 +9,7 @@ It supports access to up to eight 1-Wire busses powered with external power supp
 
 ### Known problems with design
 
-Should be noticed that using separate bus control FSM for each bus is useless, but I wanted to use for/generate construction on
-component so much that I couldn't help it.
+Should be noticed that using separate bus control FSM for each bus is overkill, but I wanted to use for/generate construction on component so much that I couldn't help it. Also at first was planned to add FIFO stacks so data could be transfered on different busses simultaneously.
 
 ## Command format
 
